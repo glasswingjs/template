@@ -1,7 +1,7 @@
 {
-  "name": "@glasswing/common",
+  "name": "@glasswing/template",
   "version": "0.0.1",
-  "description": "GlassWingJs Common Package",
+  "description": "GlassWingJs Package Template",
   "main": "dist/commonjs/index.js",
   "scripts": {
     "build": "rollup -c --environment NODE_ENV:production",
