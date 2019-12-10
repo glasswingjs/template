@@ -36,7 +36,11 @@ export default [{
     },
   ],
   plugins: [ ts(), ],
-}].concat(!isProduction
+}/**, {
+  input: "./src/index.ts",
+  output: [{ file: "dist/index.d.ts", format: "es" }],
+  plugins: [dts()],
+}/**/].concat(!isProduction
   ? []
   : [
     {
