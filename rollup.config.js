@@ -1,3 +1,5 @@
+import dts from 'rollup-plugin-dts';
+
 import typescript from "rollup-plugin-typescript2";
 
 const isProduction = process.env.NODE_ENV === "production";
